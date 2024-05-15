@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bgimage {
+    background-image: url('./images/herovid2.mp4');
+}
