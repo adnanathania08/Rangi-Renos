@@ -32,7 +32,7 @@ const TestimonialComponent = () => {
         <div className="max-w-screen-xl px-20 air:px-12 m480:px-8">
           <div className="max-w-3xl mx-auto text-center">
             <h3
-              className="text-[] font-mons
+              className="text-[#28334a] font-mons
            text-lg font-medium pb-6"
             >
               What people are saying
