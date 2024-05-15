@@ -22,8 +22,7 @@ const HeroSectionOff = () => {
           </div>
           <div className="build">
             <h1 className="text-[#fff] text-6xl font-medium font-int leading-[1.2] md:text-5xl">
-              Constructing Connections: Your Trusted Guide for Office
-              Renovations
+              Office Services: Your Trusted Guide for Office Renovations
             </h1>
           </div>
           {/* <div className="reachout font-mons font-semibold">

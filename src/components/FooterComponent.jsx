@@ -1,7 +1,8 @@
 import React from "react";
-import { FaXTwitter } from "react-icons/fa6";
-import { FaInstagram } from "react-icons/fa6";
-import { FiFacebook } from "react-icons/fi";
+// import { FaXTwitter } from "react-icons/fa6";
+// import { FaInstagram } from "react-icons/fa6";
+// import { FiFacebook } from "react-icons/fi";
+import rangilogo from "../images/rangilogo.png";
 import { Link } from "react-router-dom";
 const FooterComponent = () => {
   const footerNavs = [
@@ -14,7 +15,7 @@ const FooterComponent = () => {
       name: "About",
     },
     {
-      href: "/service",
+      href: "/homeservice",
       name: "Service",
     },
 
@@ -33,13 +34,18 @@ const FooterComponent = () => {
       <footer className="bg-[#28334a] py-16 max-w-screen-xl mx-auto px-20 air:px-12 m480:px-8">
         <div className="max-w-lg mx-auto text-center">
           <div className=" mx-auto font-arial font-semibold  text-[#fff]">
-            <span className="text-5xl">Rangi Renos</span>
+            <img
+              src={rangilogo}
+              className="h-36 w-36 m480:h-24 m480:w-24 mx-auto"
+            />
+            {/* <span className="text-5xl">Rangi Renos</span> */}
           </div>
-          <p className="leading-relaxed mt-6 text-[15px] text-[#fff] font-mons">
-            Thank you for visiting Rangi Renos. Discover the art of
-            transformative design with our expert team. Contact us today to turn
-            your vision into reality. Follow us on social media for the latest
-            trends and inspiration
+          <p className="leading-relaxed mt-2 text-lg m480:text-base text-[#fff] font-arial">
+            Thank you for choosing Rangi Renos. We appreciate your interest in
+            our services. Our expert team is dedicated to the art of
+            transformative design, ensuring every detail aligns with your
+            vision. Contact us today to learn more about how we can turn your
+            renovation dreams into reality.
           </p>
         </div>
         <ul className="items-center justify-center text-[#fff] mt-8 flex space-x-6 space-y-0 font-arial">

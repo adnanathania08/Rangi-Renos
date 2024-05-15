@@ -62,7 +62,7 @@ const RenovationProjectComponent = () => {
                   </h4>
                   <p className="font-mons">{item.features}</p>
                   <div className="bottom absolute bottom-3">
-                    <Link to="/service">
+                    <Link to="/homeservice">
                       <button className="text-red font-mons border border-[#28334a] hover:before:bg-[#28334a] relative overflow-hidden bg-white py-2 px-4 text-[#28334a] shadow-2xl transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:transition-all before:duration-500 hover:text-white font-medium hover:before:left-0 hover:before:w-full">
                         <span className="relative z-10">Explore</span>
                       </button>
@@ -73,11 +73,11 @@ const RenovationProjectComponent = () => {
             ))}
           </ul>
         </div>
-        <div className="w-full flex justify-center ">
+        {/* <div className="w-full flex justify-center ">
           <button className="px-8 py-4 rounded-lg font-semibold text-sm duration-150 text-[#fff] bg-[#28334a] font-mons">
             Discover All
           </button>
-        </div>
+        </div> */}
       </div>
     </>
   );
