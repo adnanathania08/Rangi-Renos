@@ -7,7 +7,6 @@ import NavbarComponent from "./components/NavbarComponent";
 import ContactPage from "./pages/ContactPage";
 import FooterComponent from "./components/FooterComponent";
 import ScrollToTop from "./ScrollToTop";
-import AdditionalReno from "./ServiceComponents/AdditionalReno";
 import CustomService from "./pages/CustomService";
 
 function App() {

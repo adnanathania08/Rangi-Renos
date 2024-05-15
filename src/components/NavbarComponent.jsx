@@ -138,6 +138,7 @@ const NavbarComponent = () => {
                 Office Service
               </Link>
               <Link
+                onClick={closeSelect}
                 to="/customaddition"
                 className="text-[#fff] hover:text-[#DCDBDB] transition ease-in-out cursor-pointer focus:text-[#DCDBDB]"
               >

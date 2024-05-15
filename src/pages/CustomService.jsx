@@ -1,12 +1,12 @@
 import React from "react";
 import CustomAdditionHero from "../ServiceComponents/CustomAdditionHero";
-import AdditionalReno from "../ServiceComponents/AdditionalReno";
+import CustomReno from "../ServiceComponents/CustomReno";
 
 const CustomService = () => {
   return (
     <>
       <CustomAdditionHero />
-      <AdditionalReno />
+      <CustomReno />
     </>
   );
 };

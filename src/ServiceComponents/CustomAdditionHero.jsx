@@ -3,7 +3,7 @@ import additional from "../images/additional.jpg";
 const CustomAdditionHero = () => {
   return (
     <>
-      <div className="mainContainer w-[100%] h-screen bg-slate-400 relative  overflow-hidden">
+      <div className="mainContainer w-[100%] h-screen bg-slate-400 relative overflow-hidden">
         <img
           src={additional}
           className="h-screen w-full object-cover z-0 brightness-[60%] absolute"
@@ -15,7 +15,7 @@ const CustomAdditionHero = () => {
           data-aos-once="true"
         >
           <div className="empower text-[#fff] text-lg font-mons md:text-base">
-            <p>Welcome to Your Home's Next Chapter</p>
+            <p>Custom Additions: Expanding Your Home, Enhancing Your Life</p>
           </div>
           <div className="build">
             <h1 className="text-[#fff] text-6xl font-medium font-int leading-[1.2] md:text-5xl">
