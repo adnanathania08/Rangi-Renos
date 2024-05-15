@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { LuMenu } from "react-icons/lu";
 import { useState } from "react";
+import rangi from "../images/rangilogo.png";
 const NavbarComponent = () => {
   const [isOpen, setIsOpen] = useState(false);
   function handleSelect() {
@@ -16,13 +17,14 @@ const NavbarComponent = () => {
       <div className="main-container w-full relative bg-[#28334a] ">
         <div className="navbar w-full shadow-lg h-16 flex justify-between px-20 items-center air:px-12 m480:px-8">
           <Link to="/">
-            <div className="logo font-arial font-semibold text-[#fff]">
+            <div className="logo font-arial font-medium items-center flex gap-1 m480:gap-0 text-[#fff]">
               {/* PREVIOUS FONT  
                   font-curs   */}
-              <span className="text-3xl m480:text-2xl">RANGI RENOS</span>
+              <img src={rangi} className="h-12" />
+              <span className="text-xl m480:text-lg">RANGI RENOS</span>
             </div>
           </Link>
-          <div className="navOpts items-center flex gap-16 lg2:gap-10 font-mons font-medium text-base lg:hidden">
+          <div className="navOpts items-center flex gap-16 lg2:gap-10 font-mons font-normal text-base lg:hidden">
             <Link
               to="/"
               className="text-[#fff] hover:text-[#DCDBDB] transition ease-in-out cursor-pointer focus:text-[#DCDBDB]"
@@ -89,7 +91,10 @@ const NavbarComponent = () => {
             {/* <button className=" px-3 py-2 rounde bg-white hover:bg-[#DCDBDB] rounded text-[#28334a] transition ease-in-out">
               Get Started
             </button> */}
-            <a href="tel:+1 (905) 867-7502" className="text-[#fff] font-mons">
+            <a
+              href="tel:+1 (905) 867-7502"
+              className="text-[#fff] font-mons font-normal"
+            >
               +1 (905) 867-7502
             </a>
             {/* <a href="tel:+12123334444">(212) 333-4444</a> */}
