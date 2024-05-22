@@ -1,25 +1,32 @@
-import React from "react";
+import React, { useState } from "react";
+import { useForm, ValidationError } from "@formspree/react";
 
 const ContactComponent = () => {
+  const [state, handleSubmit] = useForm("xjvndypy");
+  // if (state.succeeded) {
+  //   return <p>Thanks for joining!</p>;
+  // }
   const contactMethods = [
     {
       icon: (
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          strokeWidth={1.5}
-          stroke="currentColor"
-          className="w-6 h-6"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
-          />
-        </svg>
+        <a href="mailto:support@example.com?subject=SendMail&body=Description">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth={1.5}
+            stroke="currentColor"
+            className="w-6 h-6"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
+            />
+          </svg>
+        </a>
       ),
-      contact: "Rangijag84@gmail.com",
+      contact: "rangijag84@gmail.com",
     },
     {
       icon: (
@@ -96,39 +103,72 @@ const ContactComponent = () => {
             </div>
           </div>
           <div className="w-[40%] mt-8 md:w-[60%] m480:w-[100%]">
-            <form onSubmit={(e) => e.preventDefault()} className="space-y-4">
+            <form
+              action="https://formspree.io/f/xjvndypy"
+              onSubmit={handleSubmit}
+              method="POST"
+              className="space-y-4"
+            >
               <div>
-                <label className="font-medium">Full name</label>
+                <label className="font-medium">Full Name</label>
                 <input
+                  name="Name"
                   type="text"
                   required
                   className="w-full mt-2 px-3 py-2 text-[#7f7f7f]500 bg-transparent outline-none border focus:border-indigo-600 shadow-sm rounded-lg"
+                />
+                <ValidationError
+                  prefix="Name"
+                  field="name"
+                  errors={state.errors}
                 />
               </div>
               <div>
                 <label className="font-medium">Email</label>
                 <input
                   type="email"
+                  name="Email"
                   required
                   className="w-full mt-2 px-3 py-2 text-[#7f7f7f]500 bg-transparent outline-none border focus:border-indigo-600 shadow-sm rounded-lg"
+                />
+                <ValidationError
+                  prefix="Email"
+                  field="email"
+                  errors={state.errors}
                 />
               </div>
               <div>
                 <label className="font-medium">Company</label>
                 <input
+                  name="Company"
                   type="text"
                   required
                   className="w-full mt-2 px-3 py-2 text-[#7f7f7f]500 bg-transparent outline-none border focus:border-indigo-600 shadow-sm rounded-lg"
+                />
+                <ValidationError
+                  prefix="Message"
+                  field="Message"
+                  errors={state.errors}
                 />
               </div>
               <div>
                 <label className="font-medium">Message</label>
                 <textarea
+                  name="Message"
                   required
                   className="w-full mt-2 h-36 px-3 py-2 resize-none appearance-none bg-transparent outline-none border focus:border-indigo-600 shadow-sm rounded-lg"
                 ></textarea>
+                <ValidationError
+                  prefix="Message"
+                  field="Message"
+                  errors={state.errors}
+                />
               </div>
-              <button className="w-full px-4 py-3 rounded-lg font-semibold text-base duration-150 text-white bg-[#28334a] font-mons">
+              <button
+                type="submit"
+                disabled={state.submitting}
+                className="w-full px-4 py-3 rounded-lg font-semibold text-base duration-150 text-white bg-[#28334a] font-mons"
+              >
                 Submit
               </button>
             </form>

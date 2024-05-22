@@ -29,7 +29,7 @@ const RenovationProjectComponent = () => {
   ];
   return (
     <>
-      <div className="mainContainer  py-20 w-[100%] px-20 air:px-12 m480:px-8">
+      <div className="mainContainer py-20 w-[100%] px-20 air:px-12 m480:px-8">
         <div
           className="empower pb-4 text-[#28334a] font-mons
            text-lg font-medium text-center"

@@ -15,13 +15,13 @@ const NavbarComponent = () => {
   return (
     <>
       <div className="main-container w-full relative bg-[#28334a] ">
-        <div className="navbar w-full shadow-lg h-16 flex justify-between px-20 items-center air:px-12 m480:px-8">
+        <div className="navbar w-full shadow-lg h-16 flex justify-between px-20 items-center air:px-12 m480:px-6">
           <Link to="/">
             <div className="logo font-arial font-medium items-center flex gap-1 m480:gap-0 text-[#fff]">
               {/* PREVIOUS FONT  
                   font-curs   */}
-              <img src={rangi} className="h-12" />
-              <span className="text-xl m480:text-lg">RANGI RENOS</span>
+              <img src={rangi} className="h-14" />
+              <span className="text-[24px] m480:text-lg">RANGI RENOVATION</span>
             </div>
           </Link>
           <div className="navOpts items-center flex gap-16 lg2:gap-10 font-mons font-normal text-base lg:hidden">
@@ -45,7 +45,7 @@ const NavbarComponent = () => {
               to="/homeservice"
               className="py-[20px] items-center text-[#fff] hover:text-[#DCDBDB] transition ease-in-out cursor-pointer focus:text-[#DCDBDB]"
             >
-              Service
+              Services
             </Link>
             {isOpen && (
               <div
@@ -58,7 +58,7 @@ const NavbarComponent = () => {
                     setIsOpen(false);
                   }, 300);
                 }}
-                className="serviceBox flex flex-col bg-white absolute top-16 left-[50%] z-50"
+                className="serviceBox flex flex-col bg-white absolute top-16 left-[53%] z-50"
               >
                 <Link
                   to="/homeservice"
@@ -128,14 +128,14 @@ const NavbarComponent = () => {
                 to="/homeservice"
                 className="text-[#fff] hover:text-[#DCDBDB] transition ease-in-out cursor-pointer focus:text-[#DCDBDB]"
               >
-                Home Service
+                Home Services
               </Link>
               <Link
                 onClick={closeSelect}
                 to="/officeservice"
                 className="text-[#fff] hover:text-[#DCDBDB] transition ease-in-out cursor-pointer focus:text-[#DCDBDB]"
               >
-                Office Service
+                Office Services
               </Link>
               <Link
                 onClick={closeSelect}

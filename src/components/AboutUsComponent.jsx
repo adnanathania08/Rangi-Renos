@@ -60,13 +60,14 @@ const AboutUsComponent = () => {
             data-aos-once="true"
           >
             <div className="warranty text-[#fff] space-y-3">
-              <p className="font-mons text-center">
-                Our company is fully insured with a 5 million Canadian dollar
+              <p className="font-mons text-lg font-normal text-center m480:text-base">
+                Our company is fully insured with a
+                <b> 5 million Canadian dollar </b>
                 insurance policy, ensuring comprehensive coverage for our
-                operations. Additionally, we are certified by the Workplace
-                Safety and Insurance Board (WSIB) and recognized by the
-                government, guaranteeing our compliance with all necessary
-                regulations and standards.
+                operations. Additionally, we are certified by the
+                <b> Workplace Safety and Insurance Board (WSIB) </b> and
+                <b> recognized by the government</b>, guaranteeing our
+                compliance with all necessary regulations and standards.
               </p>
             </div>
           </section>

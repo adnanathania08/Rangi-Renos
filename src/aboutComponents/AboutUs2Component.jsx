@@ -49,21 +49,22 @@ const AboutUs2Component = () => {
           <div className="build text-center">
             <h1 className="text-black text-5xl font-medium font-int leading-[1.2] md:text-4xl">
               <span className="text-[#7f7f7f]">
-                "Elevating homes with expert craftsmanship and personalized
-                service –&nbsp;
+                Elevating Space With Expert Craftsmanship And Personalized
+                Service –&nbsp;
               </span>
-              welcome to Rangi Renos, your renovation destination
+              Welcome To Rangi Renovations
             </h1>
           </div>
           <section className=" mx-auto mt p-8 m480:p-5">
             <div className="warranty text-[#000] space-y-3">
               <p className="font-mons text-center">
-                Our company is fully insured with a 5 million Canadian dollar
+                Our company is fully insured with a
+                <b> 5 million Canadian dollar </b>
                 insurance policy, ensuring comprehensive coverage for our
-                operations. Additionally, we are certified by the Workplace
-                Safety and Insurance Board (WSIB) and recognized by the
-                government, guaranteeing our compliance with all necessary
-                regulations and standards.
+                operations. Additionally, we are certified by the
+                <b> Workplace Safety and Insurance Board (WSIB) </b> and
+                <b> recognized by the government</b>, guaranteeing our
+                compliance with all necessary regulations and standards.
               </p>
             </div>
           </section>

@@ -16,7 +16,7 @@ const HeroSection2Component = () => {
           data-aos-once="true"
         >
           <div className="empower text-[#fff] text-lg font-mons md:text-base">
-            <p>Crafting Homes, Inspiring Lives</p>
+            <p>Crafting Home And Office, Inspiring Lives</p>
           </div>
           <div className="build">
             <h1 className="text-[#fff] text-6xl font-medium font-int leading-[1.2] md:text-5xl">

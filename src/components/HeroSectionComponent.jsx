@@ -32,14 +32,15 @@ const HeroSectionComponent = () => {
           </div>
           <div className="build">
             <h1 className="text-white text-6xl font-medium font-int leading-[1.2] md:text-5xl">
-              Transforming Your Home With Our Expert Renovation Services.
+              Transforming Your Home And Office With Our Expert Renovation
+              Services.
             </h1>
             {/* text-[#232323]  */}
             {/* border-[#7f7f7f] */}
             {/* text-[#28334a] */}
           </div>
           <div className="reachout font-mons font-semibold m480:font-medium">
-            <a  href="tel:+1 (905) 867-7502">
+            <a href="tel:+1 (905) 867-7502">
               <button className=" px-4 py-2 m480:px-2 m480:py-1 rounded border-[2px]  border-white text-white transition ease-in-out hover:scale-[1.03]">
                 Reach Out <span>&rarr;</span>
               </button>

@@ -38,14 +38,14 @@ const WhychooseUsComponent = () => {
             Expert Advice: The Ultimate Guide to <br />
             Home Renovation
           </p>
-          <p className="font-mons">
+          {/* <p className="font-mons">
             Our company is fully insured with a 5 million Canadian dollar
             insurance policy, ensuring comprehensive <br /> coverage for our
             operations. Additionally, we are certified by the Workplace Safety
             and <br /> Insurance Board (WSIB) and recognized by the government,
             guaranteeing
             <br /> our compliance with all necessary regulations and standards.
-          </p>
+          </p> */}
         </div>
         <div
           className="threeOptions pt-12 grid gap-y-8 gap-x-12 lg:gap-x-4 air:gap-x-6 air:grid-cols-2 grid-cols-3 m480:grid-cols-1"

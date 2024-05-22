@@ -52,14 +52,15 @@ const CustomReno = () => {
               Custom Additions
             </h3>
             <p className="text-black text-4xl sm:text-4xl font-int font-medium">
-              Our comprehensive services encompass every aspect of office
-              renovation.
+              Our comprehensive services encompass every aspect of Home and
+              Office renovation.
             </p>
             <p className="font-mons">
-              If you adore your home but crave more space, a custom addition is
-              the perfect solution. <br /> Whether you’re looking to expand for
-              roomier living, make eco-conscious upgrades, <br /> plan for
-              retirement, or boost resale value, additions offer versatile{" "}
+              If you adore your home and office but crave more space, a custom
+              addition is the perfect solution. <br /> Whether you’re looking to
+              expand for roomier living, make eco-conscious upgrades, <br />
+              plan for retirement, or boost resale value, additions offer
+              versatile
               <br />
               benefits tailored to your specific needs.
             </p>
