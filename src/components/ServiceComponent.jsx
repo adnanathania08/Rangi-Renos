@@ -17,7 +17,7 @@ const ServiceComponent = () => {
       Image: (
         <img
           src={ktcramo}
-          className=" h-full air:w-full object-cover rounded-lg brightness-[80%] bg-blend-darken"
+          className="w-[100%] h-full air:w-full object-cover rounded-lg brightness-[80%] bg-blend-darken"
           alt="kitchen remodeling"
         />
       ),
@@ -28,7 +28,7 @@ const ServiceComponent = () => {
       Image: (
         <img
           src={bthreno}
-          className=" h-full air:w-full object-cover rounded-lg brightness-[80%] bg-blend-darken"
+          className="w-[100%] h-full air:w-full object-cover rounded-lg brightness-[80%] bg-blend-darken"
           alt="Bathroom Renovations"
         />
       ),
@@ -39,7 +39,7 @@ const ServiceComponent = () => {
       Image: (
         <img
           src={homadd}
-          className=" h-full air:w-full object-cover rounded-lg brightness-[80%] bg-blend-darken"
+          className="w-[100%] h-full air:w-full object-cover rounded-lg brightness-[80%] bg-blend-darken"
           alt="Home Additions"
         />
       ),
@@ -50,7 +50,7 @@ const ServiceComponent = () => {
       Image: (
         <img
           src={hardwood}
-          className=" h-full air:w-full object-cover rounded-lg brightness-[80%] bg-blend-darken"
+          className="w-[100%] h-full air:w-full object-cover rounded-lg brightness-[80%] bg-blend-darken"
           alt="HARDWOOD STAIRS"
         />
       ),
@@ -61,7 +61,7 @@ const ServiceComponent = () => {
       Image: (
         <img
           src={partitions}
-          className=" h-full air:w-full object-cover rounded-lg brightness-[80%] bg-blend-darken"
+          className="w-[100%] h-full air:w-full object-cover rounded-lg brightness-[80%] bg-blend-darken"
           alt="PARTITIONS"
         />
       ),
@@ -72,7 +72,7 @@ const ServiceComponent = () => {
       Image: (
         <img
           src={carpentry}
-          className=" h-full air:w-full object-cover rounded-lg brightness-[80%] bg-blend-darken"
+          className="w-[100%] h-full air:w-full object-cover rounded-lg brightness-[80%] bg-blend-darken"
           alt="CARPENTRY"
         />
       ),
@@ -145,7 +145,7 @@ const ServiceComponent = () => {
             {features.slice(0, 3).map((item, idx) => (
               <li
                 key={idx}
-                className=" object-cover rounded h-[350px] relative bg-blend-darken hover:bg-[#d6d3d1]"
+                className=" object-cover rounded h-[350px] relative bg-blend-darken"
               >
                 {/* bg-[#d6d3d1] */}
                 <div className=" mx-auto h-full air:w-full bg-blend-saturation">

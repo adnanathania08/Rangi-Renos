@@ -7,29 +7,29 @@ const AboutUs2Component = () => {
   const [counterOn, setCounterOn] = useState(false);
   const stats = [
     {
-      data: "$4.8m",
-      title: "In pure profits for our clients",
-      value: 4,
+      data: "$5m",
+      title: "Insured Coverage",
+      value: 5,
       sign: "$",
       sign2: "m",
     },
     {
       data: "100%",
-      title: "In pure profits for our clients",
+      title: "Customer Satisfaction Gauranteed",
       value: 100,
       sign2: "%",
     },
     {
       data: "#1",
-      title: "In pure profits for our clients",
+      title: "In Canada",
       value: 1,
       sign: "#",
     },
     {
-      data: "99%",
-      title: "In pure profits for our clients",
-      value: 99,
-      sign2: "%",
+      data: "3000",
+      title: "Canadian Clients Served",
+      value: 3000,
+      sign2: "+",
     },
   ];
 

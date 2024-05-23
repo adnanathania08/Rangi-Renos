@@ -12,7 +12,7 @@ const HeroSectionComponent = () => {
       {/* flex items-center air:px-12 m480:px-8 */}
       {/* bg-[#d6d3d1] bg-[#d6d3d1] */}
 
-      <div className="mainContainer w-[100%] h-screen bg-slate-400 relative  overflow-hidden">
+      <div className="mainContainer w-[100%] h-screen bg-slate-400 relative  overflow-hidden flex items-center justify-center">
         <video
           autoPlay
           loop
@@ -22,8 +22,8 @@ const HeroSectionComponent = () => {
           <source src={heroVideo} type="video/mp4" />
         </video>
         <div
-          className="herocontent w-[80%] pt-24 pb-24 px-20 air:px-12 m480:px-8 absolute z-10 air:w-[100%] flex flex-col gap-7 m480:gap-6 air:text-center"
-          data-aos="fade-right"
+          className="herocontent w-[80%] py-20 px-20 air:px-12 m480:px-8 absolute z-10 air:w-[100%] space-y-7 m480:gap-6 text-center"
+          data-aos="fade-down"
           data-aos-duration="1100"
           data-aos-once="true"
         >

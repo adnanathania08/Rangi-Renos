@@ -51,7 +51,7 @@ const RenovationProjectComponent = () => {
             {plans.map((item, idx) => (
               <li
                 key={idx}
-                className="bg-white space-y-3 h-[480px] shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-xl relative"
+                className="bg-white space-y-3 xl3:h-[480px] h-[520px] shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-xl relative"
               >
                 <div className="shadow-lg text-xl rounded-lg flex items-center justify-center mx-auto">
                   {item.img}

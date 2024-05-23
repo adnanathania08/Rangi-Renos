@@ -5,14 +5,14 @@ import contact3 from "../images/contact3.jpg";
 const HeroSection4 = () => {
   return (
     <>
-      <div className="mainContainer w-[100%] h-screen bg-slate-400 relative  overflow-hidden">
+      <div className="mainContainer w-[100%] h-screen bg-slate-400 relative  overflow-hidden flex justify-center items-center">
         <img
           src={contact3}
           className="h-screen w-full object-cover z-0 brightness-[60%] absolute"
         />
         <div
-          className="herocontent w-[80%] pt-24 pb-24 px-20 air:px-12 m480:px-8 absolute z-10 air:w-[100%] flex flex-col gap-7 m480:gap-6 air:text-center"
-          data-aos="fade-right"
+          className="herocontent w-[80%] pt-24 pb-24 px-20 air:px-12 m480:px-8 absolute z-10 air:w-[100%] flex flex-col gap-7 m480:gap-6 text-center"
+          data-aos="fade-down"
           data-aos-duration="1100"
           data-aos-once="true"
         >
