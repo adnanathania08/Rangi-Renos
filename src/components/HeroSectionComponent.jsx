@@ -1,29 +1,8 @@
 import React from "react";
 import heroVideo from "../images/Rangi-Renovatios-Home-hero.mp4";
-import { Helmet } from "react-helmet";
 const HeroSectionComponent = () => {
   return (
     <>
-      {/* <Helmet>
-        <title>Home Page Rangi Renovations</title>
-        <meta name="description" content="This is a description of my page" />
-        <meta name="keywords" content="react, meta tags, seo" />
-        <meta name="author" content="Your Name" />
-        <meta property="og:title" content="My Page Title" />
-        <meta
-          property="og:description"
-          content="This is a description of my page"
-        />
-        <meta property="og:image" content="https://example.com/image.jpg" />
-        <meta property="og:url" content="https://example.com/my-page" />
-        <meta name="twitter:title" content="My Page Title" />
-        <meta
-          name="twitter:description"
-          content="This is a description of my page"
-        />
-        <meta name="twitter:image" content="https://example.com/image.jpg" />
-        <meta name="twitter:card" content="summary_large_image" />
-      </Helmet> */}
       <div className="mainContainer w-[100%] h-screen bg-slate-400 relative  overflow-hidden flex items-center justify-center">
         <video
           autoPlay

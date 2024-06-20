@@ -13,6 +13,7 @@ const HomeReno = () => {
         <img
           src={Bathroom}
           alt="Bathroom-Renovations"
+
           className=" rounded-t-xl object-cover h-full w-full "
         />
       ),
@@ -35,6 +36,7 @@ const HomeReno = () => {
         <img
           src={Kitchen}
           alt="Kitchen-renovation"
+
           className=" rounded-t-xl object-cover h-full w-full "
         />
       ),
@@ -44,8 +46,10 @@ const HomeReno = () => {
     {
       icon: (
         <img
+
           src={Flooring}
           alt="Flooring"
+
           className=" rounded-t-xl object-cover h-full w-full "
         />
       ),
@@ -55,8 +59,10 @@ const HomeReno = () => {
     {
       icon: (
         <img
+
           src={Painting}
           alt="Painting"
+
           className=" rounded-t-xl object-cover h-full w-full "
         />
       ),
@@ -66,8 +72,10 @@ const HomeReno = () => {
     {
       icon: (
         <img
+
           src={Plumbing}
           alt="Plumbing"
+
           className=" rounded-t-xl object-cover h-full w-full "
         />
       ),
