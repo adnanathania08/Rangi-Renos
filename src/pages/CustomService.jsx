@@ -1,6 +1,7 @@
 import React from "react";
 import CustomAdditionHero from "../ServiceComponents/CustomAdditionHero";
 import CustomReno from "../ServiceComponents/CustomReno";
+import { Helmet } from "react-helmet";
 
 const CustomService = () => {
   return (
