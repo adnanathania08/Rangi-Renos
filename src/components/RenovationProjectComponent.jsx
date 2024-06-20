@@ -7,21 +7,39 @@ const RenovationProjectComponent = () => {
   const plans = [
     {
       name: "Modern kitchen Makeovers Projects",
-      img: <img src={luxkitc} className="rounded-t-lg" alt="" />,
+      img: (
+        <img
+          src={luxkitc}
+          className="rounded-t-lg w-full h-full object-cover"
+          alt=""
+        />
+      ),
       features: [
         "Modern kitchen makeovers prioritize open-concept layouts for seamless flow.",
       ],
     },
     {
       name: "Luxurious Bathroom Renovation",
-      img: <img src={bathroom} className="rounded-t-lg" alt="" />,
+      img: (
+        <img
+          src={bathroom}
+          className="rounded-t-lg w-full h-full object-cover"
+          alt=""
+        />
+      ),
       features: [
         "Elevate your routine with our luxurious, tailored bathroom renovations.",
       ],
     },
     {
       name: "Basement Transformation Projects",
-      img: <img src={basement} className="rounded-t-lg " alt="" />,
+      img: (
+        <img
+          src={basement}
+          className="rounded-t-lg w-full h-full object-cover"
+          alt=""
+        />
+      ),
       features: [
         "Style your basement with our expertise for cozy family dens and sophisticated entertainment.",
       ],
@@ -44,16 +62,16 @@ const RenovationProjectComponent = () => {
         <div
           className="my-12"
           data-aos="fade-down"
-          data-aos-duration="1100"
+          data-aos-duration="1000"
           data-aos-once="true"
         >
-          <ul className="grid rounded-lg gap-y-6 gap-x-6 sm:grid-cols-2 grid-cols-3 air:grid-cols-2 m480:grid-cols-1 ">
+          <ul className=" rounded-lg gap-y-6 flex justify-center gap-6 flex-wrap ">
             {plans.map((item, idx) => (
               <li
                 key={idx}
-                className="bg-white space-y-3 xl3:h-[480px] h-[520px] shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-xl relative"
+                className="bg-white space-y-3 h-[480px] max-w-[490px] shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-xl relative"
               >
-                <div className="shadow-lg text-xl rounded-lg flex items-center justify-center mx-auto">
+                <div className="shadow-lg h-[240px] text-xl rounded-lg flex items-center justify-center mx-auto">
                   {item.img}
                 </div>
                 <div className="text p-3 space-y-2">

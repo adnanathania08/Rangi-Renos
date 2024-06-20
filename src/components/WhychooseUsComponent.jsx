@@ -9,17 +9,17 @@ import comm from "../images/comm.jpg";
 const WhychooseUsComponent = () => {
   const options = [
     {
-      icon: <img src={exper} alt="" className=" rounded-t-xl" />,
+      icon: <img src={exper} alt="" className=" rounded-t-xl object object-cover h-full w-full " />,
       title: "Expertise",
       desc: "With years of experience in the industry, our team brings a wealth of expertise and knowledge to every project we undertake.",
     },
     {
-      icon: <img src={crfts} alt="" className=" rounded-t-xl" />,
+      icon: <img src={crfts} alt="" className=" rounded-t-xl object-cover h-full w-full " />,
       title: "Quality Craftsmanship",
       desc: " We take pride in our attention to detail and commitment to quality craftsmanship, ensuring that every aspect of your renovation is completed to the highest standards.",
     },
     {
-      icon: <img src={comm} alt="" className=" rounded-t-xl" />,
+      icon: <img src={comm} alt="" className=" rounded-t-xl object-cover h-full w-full " />,
       title: "Transparent Communication",
       desc: "We'll keep you informed and involved throughout the entire renovation process, ensuring that your vision is brought to life exactly as you imagined.",
     },
@@ -48,7 +48,7 @@ const WhychooseUsComponent = () => {
           </p> */}
         </div>
         <div
-          className="threeOptions pt-12 grid gap-y-8 gap-x-12 lg:gap-x-4 air:gap-x-6 air:grid-cols-2 grid-cols-3 m480:grid-cols-1"
+          className="threeOptions pt-12 gap-y-6 flex justify-center gap-4 flex-wrap"
           data-aos="fade-up"
           data-aos-duration="1100"
           data-aos-once="true"
@@ -56,9 +56,9 @@ const WhychooseUsComponent = () => {
           {options.map((item, idx) => (
             <div
               key={idx}
-              className="options bg-[#fff] shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-xl "
+              className="options bg-[#fff] shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-xl h-[480px] max-w-[490px]"
             >
-              <div className="icon">{item.icon}</div>
+              <div className="icon h-[240px] ">{item.icon}</div>
               <div className="text p-3 space-y-2">
                 <p className="title text-xl font-int font-medium">
                   {item.title}

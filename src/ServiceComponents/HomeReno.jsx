@@ -9,32 +9,32 @@ import { Link } from "react-router-dom";
 const HomeReno = () => {
   const features = [
     {
-      icon: <img src={plumbing} alt="" className=" rounded-t-xl" />,
+      icon: <img src={plumbing} alt="" className=" rounded-t-xl object-cover h-full w-full " />,
       title: "Bathroom Renovations",
       desc: "Expert plumbing solutions tailored to your needs, ensuring optimal functionality and efficiency for your home.",
     },
     {
-      icon: <img src={flooring} alt="" className=" rounded-t-xl" />,
+      icon: <img src={flooring} alt="" className=" rounded-t-xl object-cover h-full w-full " />,
       title: " Legal Basement",
       desc: "Premium flooring options to suit your style and practical needs, elevating the ambiance of every room.",
     },
     {
-      icon: <img src={partitions} alt="" className=" rounded-t-xl" />,
+      icon: <img src={partitions} alt="" className=" rounded-t-xl object-cover h-full w-full " />,
       title: "Kitchen Renovations",
       desc: "Customized partition designs creating versatile spaces, blending functionality with seamless integration into your home's layout.",
     },
     {
-      icon: <img src={dropceiling} alt="" className=" rounded-t-xl" />,
+      icon: <img src={dropceiling} alt="" className=" rounded-t-xl object-cover h-full w-full " />,
       title: "Flooring",
       desc: "Innovative drop ceiling installations providing versatility and aesthetics, optimizing lighting and acoustics for your space.",
     },
     {
-      icon: <img src={carpentry} alt="" className=" rounded-t-xl" />,
+      icon: <img src={carpentry} alt="" className=" rounded-t-xl object-cover h-full w-full " />,
       title: "Painting",
       desc: "Exquisite craftsmanship in every detail, transforming your space with bespoke carpentry solutions and finishes.",
     },
     {
-      icon: <img src={hardwoodstairs} alt="" className=" rounded-t-xl" />,
+      icon: <img src={hardwoodstairs} alt="" className=" rounded-t-xl object-cover h-full w-full " />,
       title: "Plumbing",
       desc: "Elegant and durable hardwood stair installations, enhancing the aesthetic appeal and functionality of your home.",
     },
@@ -67,13 +67,13 @@ const HomeReno = () => {
             data-aos-duration="1100"
             data-aos-once="true"
           >
-            <ul className="grid gap-y-6 gap-x-6 sm:grid-cols-2 grid-cols-3 air:grid-cols-2 m480:grid-cols-1 ">
+            <ul className="gap-y-6 flex justify-center gap-6 flex-wrap ">
               {features.map((item, idx) => (
                 <li
                   key={idx}
-                  className="space-y-3 h-[480px] shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-xl relative"
+                  className="space-y-3 h-[480px] max-w-[490px] shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-xl relative"
                 >
-                  <div className="shadow-lg text-xl rounded-lg flex items-center justify-center mx-auto">
+                  <div className="shadow-lg h-[240px] text-xl rounded-lg flex items-center justify-center mx-auto">
                     {item.icon}
                   </div>
                   <div className="text p-3 space-y-2">

@@ -30,7 +30,7 @@ const TestimonialComponent = () => {
     <>
       <section className="py-20">
         <div className="max-w-screen-xl px-20 air:px-12 m480:px-8">
-          <div className="max-w-3xl mx-auto text-center">
+          <div className="max-w-[1000px] mx-auto text-center">
             <h3
               className="text-[#28334a] font-mons
            text-lg font-medium pb-6"
@@ -43,7 +43,7 @@ const TestimonialComponent = () => {
                   <li key={idx} className="bg-[#d6d3d1] p-3 rounded-lg">
                     <figure>
                       <blockquote>
-                        <p className="text-black text-3xl sm:text-4xl font-int font-medium">
+                        <p className="text-black text-3xl sm:text-2xl font-int font-medium">
                           “{item.quote}“
                         </p>
                       </blockquote>

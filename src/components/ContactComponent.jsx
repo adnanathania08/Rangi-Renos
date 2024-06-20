@@ -350,7 +350,7 @@ const ContactComponent = () => {
               </ul>
             </div>
           </div>
-          <div className="w-[40%] mt-8 md:w-[60%] m480:w-[100%]">
+          <div className="w-[40%] mt-8 md:w-[100%] ">
             <form
               // action="https://formspree.io/f/xjvndypy"
               onSubmit={handleSubmit}

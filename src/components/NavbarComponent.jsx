@@ -42,7 +42,7 @@ const NavbarComponent = () => {
               onMouseLeave={() => {
                 setIsOpen(false);
               }}
-              to="/homeservice"
+              // to="/homeservice"
               className="py-[20px] items-center text-[#fff] hover:text-[#DCDBDB] transition ease-in-out cursor-pointer focus:text-[#DCDBDB]"
             >
               Services

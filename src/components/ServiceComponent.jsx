@@ -1,14 +1,11 @@
 import React from "react";
 
-import ktcramo from "../images/ktcramo.jpg";
-import bthreno from "../images/bthreno.jpg";
-import homadd from "../images/homadd.jpg";
-// import bsef from "../images/bsef.jpg";
-// import iremo from "../images/iremo.jpg";
-// import xreno from "../images/xreno.jpg";
-import carpentry from "../images/carpentry2.jpg";
-import hardwood from "../images/hardwoodstrs2.jpg";
-import partitions from "../images/partitions2.jpg";
+import ktcramo from "../images/Rangi-Renovations-Home-services-KitchenRemodeling.jpg";
+import bthreno from "../images/Rangi-Renovations-Home-services-BathroomRenovations.jpg";
+import homadd from "../images/Rangi-Renovations-Home-services-HomeAdditions.jpg";
+import carpentry from "../images/Rangi-Renovations-Home-services-Carpentry.jpg";
+import hardwood from "../images/Rangi-Renovations-Home-services-HardwoodStairs.jpg";
+import partitions from "../images/Rangi-Renovations-Home-services-Partitions.jpg";
 import { Link } from "react-router-dom";
 
 const ServiceComponent = () => {
