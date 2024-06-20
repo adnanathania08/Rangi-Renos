@@ -1,5 +1,5 @@
 import React from "react";
-import additional from "../images/additional.jpg";
+import additional from "../images/Rangi-Renovations-Custom-Hero.jpg";
 const CustomAdditionHero = () => {
   return (
     <>

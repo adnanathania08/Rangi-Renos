@@ -2,7 +2,7 @@ import React from "react";
 // import { FaXTwitter } from "react-icons/fa6";
 // import { FaInstagram } from "react-icons/fa6";
 // import { FiFacebook } from "react-icons/fi";
-import rangilogo from "../images/rangilogo.png";
+import rangilogo from "../images/Rangi-Renovations-Logo.png";
 import { Link } from "react-router-dom";
 const FooterComponent = () => {
   const footerNavs = [
@@ -37,6 +37,7 @@ const FooterComponent = () => {
             <img
               src={rangilogo}
               className="h-44 w-44 m480:h-24 m480:w-24 mx-auto"
+              alt="Rangi Renovations Logo"
             />
             {/* <span className="text-5xl">Rangi Renos</span> */}
           </div>

@@ -1,40 +1,76 @@
 import React from "react";
-import personalized from "../images/personalized.jpg";
-import tailored from "../images/tailored.jpg";
-import elegance from "../images/elegance.jpg";
-import craftsmanship from "../images/craftsmanship.jpg";
-import transformation from "../images/transformation.jpg";
-import vision from "../images/vision.jpg";
+import personalized from "../images/Rangi-Renovations-Custom-custom1.jpg";
+import tailored from "../images/Rangi-Renovations-Custom-custom2.jpg";
+import elegance from "../images/Rangi-Renovations-Custom-custom3.jpg";
+import craftsmanship from "../images/Rangi-Renovations-Custom-custom4.jpg";
+import transformation from "../images/Rangi-Renovations-Custom-custom5.jpg";
+import vision from "../images/Rangi-Renovations-Custom-custom6.jpg";
 import { Link } from "react-router-dom";
 const CustomReno = () => {
   const features = [
     {
-      icon: <img src={personalized} alt="" className="object-cover h-full w-full rounded-t-xl" />,
+      icon: (
+        <img
+          src={personalized}
+          alt="Rangi-Renovations-Custom-custom1"
+          className="object-cover h-full w-full rounded-t-xl"
+        />
+      ),
       title: "Personalized Design",
       desc: "Our award-winning team collaborates with you to ensure every detail matches your vision and taste.",
     },
     {
-      icon: <img src={tailored} alt="" className="object-cover h-full w-full rounded-t-xl" />,
+      icon: (
+        <img
+          src={tailored}
+          alt="Rangi-Renovations-Custom-custom2"
+          className="object-cover h-full w-full rounded-t-xl"
+        />
+      ),
       title: "Tailored Solutions",
       desc: "We offer fully tailored solutions, allowing you to personalize every aspect of your home addition.",
     },
     {
-      icon: <img src={elegance} alt="" className="object-cover h-full w-full rounded-t-xl" />,
+      icon: (
+        <img
+          src={elegance}
+          alt="Rangi-Renovations-Custom-custom3"
+          className="object-cover h-full w-full rounded-t-xl"
+        />
+      ),
       title: "Blending Innovation with Timeless Elegance",
       desc: "Our design blends modern innovation with timeless elegance, ensuring your addition is stylish and enduring.",
     },
     {
-      icon: <img src={craftsmanship} alt="" className="object-cover h-full w-full rounded-t-xl" />,
+      icon: (
+        <img
+          src={craftsmanship}
+          alt="Rangi-Renovations-Custom-custom4"
+          className="object-cover h-full w-full rounded-t-xl"
+        />
+      ),
       title: "Exceptional Craftsmanship",
       desc: "We deliver superior craftsmanship, focusing on attention to detail and quality to exceed your expectations.",
     },
     {
-      icon: <img src={transformation} alt="" className="object-cover h-full w-full rounded-t-xl" />,
+      icon: (
+        <img
+          src={transformation}
+          alt="Rangi-Renovations-Custom-custom5"
+          className="object-cover h-full w-full rounded-t-xl"
+        />
+      ),
       title: "Experience the Transformation",
       desc: "With our expertise and your personal touch, we’ll create a home that exceeds your expectations.",
     },
     {
-      icon: <img src={vision} alt="" className="object-cover h-full w-full rounded-t-xl" />,
+      icon: (
+        <img
+          src={vision}
+          alt="Rangi-Renovations-Custom-custom6"
+          className="object-cover h-full w-full rounded-t-xl"
+        />
+      ),
       title: "Bring Your Vision to Life",
       desc: "Let us help you create a space that fulfills and surpasses your expectations. Contact us today!",
     },

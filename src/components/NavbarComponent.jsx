@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { LuMenu } from "react-icons/lu";
 import { useState } from "react";
-import rangi from "../images/rangilogo.png";
+import rangi from "../images/Rangi-Renovations-Logo.png";
 const NavbarComponent = () => {
   const [isOpen, setIsOpen] = useState(false);
   function handleSelect() {
@@ -20,7 +20,7 @@ const NavbarComponent = () => {
             <div className="logo font-arial font-medium items-center flex gap-1 m480:gap-0 text-[#fff]">
               {/* PREVIOUS FONT  
                   font-curs   */}
-              <img src={rangi} className="h-14" />
+              <img src={rangi} className="h-14" alt="Rangi Renovations Logo" />
               <span className="text-[24px] m480:text-lg">RANGI RENOVATION</span>
             </div>
           </Link>
