@@ -47,7 +47,7 @@ const FooterComponent = () => {
             reality.
           </p>
         </div>
-        <ul className="items-center justify-center text-[#fff] mt-8 flex space-x-6 space-y-0 font-arial">
+        <ul className=" text-[#fff] mt-8 max-w-xl grid grid-cols-4 m480:grid-cols-2 text-center gap-4 mx-auto font-arial">
           {footerNavs.map((item, idx) => (
             <li className=" hover:text-[#d6d3d1]">
               <Link key={idx} to={item.href}>

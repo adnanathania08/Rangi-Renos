@@ -9,32 +9,68 @@ import { Link } from "react-router-dom";
 const HomeReno = () => {
   const features = [
     {
-      icon: <img src={plumbing} alt="" className=" rounded-t-xl object-cover h-full w-full " />,
+      icon: (
+        <img
+          src={plumbing}
+          alt=""
+          className=" rounded-t-xl object-cover h-full w-full "
+        />
+      ),
       title: "Bathroom Renovations",
       desc: "Expert plumbing solutions tailored to your needs, ensuring optimal functionality and efficiency for your home.",
     },
     {
-      icon: <img src={flooring} alt="" className=" rounded-t-xl object-cover h-full w-full " />,
+      icon: (
+        <img
+          src={flooring}
+          alt=""
+          className=" rounded-t-xl object-cover h-full w-full "
+        />
+      ),
       title: " Legal Basement",
       desc: "Premium flooring options to suit your style and practical needs, elevating the ambiance of every room.",
     },
     {
-      icon: <img src={partitions} alt="" className=" rounded-t-xl object-cover h-full w-full " />,
+      icon: (
+        <img
+          src={partitions}
+          alt=""
+          className=" rounded-t-xl object-cover h-full w-full "
+        />
+      ),
       title: "Kitchen Renovations",
       desc: "Customized partition designs creating versatile spaces, blending functionality with seamless integration into your home's layout.",
     },
     {
-      icon: <img src={dropceiling} alt="" className=" rounded-t-xl object-cover h-full w-full " />,
+      icon: (
+        <img
+          src={dropceiling}
+          alt=""
+          className=" rounded-t-xl object-cover h-full w-full "
+        />
+      ),
       title: "Flooring",
       desc: "Innovative drop ceiling installations providing versatility and aesthetics, optimizing lighting and acoustics for your space.",
     },
     {
-      icon: <img src={carpentry} alt="" className=" rounded-t-xl object-cover h-full w-full " />,
+      icon: (
+        <img
+          src={carpentry}
+          alt=""
+          className=" rounded-t-xl object-cover h-full w-full "
+        />
+      ),
       title: "Painting",
       desc: "Exquisite craftsmanship in every detail, transforming your space with bespoke carpentry solutions and finishes.",
     },
     {
-      icon: <img src={hardwoodstairs} alt="" className=" rounded-t-xl object-cover h-full w-full " />,
+      icon: (
+        <img
+          src={hardwoodstairs}
+          alt=""
+          className=" rounded-t-xl object-cover h-full w-full "
+        />
+      ),
       title: "Plumbing",
       desc: "Elegant and durable hardwood stair installations, enhancing the aesthetic appeal and functionality of your home.",
     },

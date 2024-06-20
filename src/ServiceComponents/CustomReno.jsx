@@ -9,32 +9,32 @@ import { Link } from "react-router-dom";
 const CustomReno = () => {
   const features = [
     {
-      icon: <img src={personalized} alt="" className=" rounded-t-xl" />,
+      icon: <img src={personalized} alt="" className="object-cover h-full w-full rounded-t-xl" />,
       title: "Personalized Design",
       desc: "Our award-winning team collaborates with you to ensure every detail matches your vision and taste.",
     },
     {
-      icon: <img src={tailored} alt="" className=" rounded-t-xl" />,
+      icon: <img src={tailored} alt="" className="object-cover h-full w-full rounded-t-xl" />,
       title: "Tailored Solutions",
       desc: "We offer fully tailored solutions, allowing you to personalize every aspect of your home addition.",
     },
     {
-      icon: <img src={elegance} alt="" className=" rounded-t-xl" />,
+      icon: <img src={elegance} alt="" className="object-cover h-full w-full rounded-t-xl" />,
       title: "Blending Innovation with Timeless Elegance",
       desc: "Our design blends modern innovation with timeless elegance, ensuring your addition is stylish and enduring.",
     },
     {
-      icon: <img src={craftsmanship} alt="" className=" rounded-t-xl" />,
+      icon: <img src={craftsmanship} alt="" className="object-cover h-full w-full rounded-t-xl" />,
       title: "Exceptional Craftsmanship",
       desc: "We deliver superior craftsmanship, focusing on attention to detail and quality to exceed your expectations.",
     },
     {
-      icon: <img src={transformation} alt="" className=" rounded-t-xl" />,
+      icon: <img src={transformation} alt="" className="object-cover h-full w-full rounded-t-xl" />,
       title: "Experience the Transformation",
       desc: "With our expertise and your personal touch, we’ll create a home that exceeds your expectations.",
     },
     {
-      icon: <img src={vision} alt="" className=" rounded-t-xl" />,
+      icon: <img src={vision} alt="" className="object-cover h-full w-full rounded-t-xl" />,
       title: "Bring Your Vision to Life",
       desc: "Let us help you create a space that fulfills and surpasses your expectations. Contact us today!",
     },
@@ -71,13 +71,13 @@ const CustomReno = () => {
             data-aos-duration="1100"
             data-aos-once="true"
           >
-            <ul className="grid gap-y-6 gap-x-6 sm:grid-cols-2 grid-cols-3 air:grid-cols-2 m480:grid-cols-1 ">
+            <ul className="gap-y-6 flex justify-center gap-6 flex-wrap">
               {features.map((item, idx) => (
                 <li
                   key={idx}
-                  className="space-y-3 h-[480px] shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-xl relative"
+                  className="space-y-3 h-[480px] max-w-[490px] shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-xl relative"
                 >
-                  <div className="shadow-lg text-xl rounded-lg flex items-center justify-center mx-auto">
+                  <div className="shadow-lg h-[240px] text-xl rounded-lg flex items-center justify-center mx-auto">
                     {item.icon}
                   </div>
                   <div className="text p-3 space-y-2 ">

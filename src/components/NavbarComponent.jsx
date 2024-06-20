@@ -35,7 +35,7 @@ const NavbarComponent = () => {
               to="/about"
               className="text-[#fff] hover:text-[#DCDBDB] transition ease-in-out cursor-pointer focus:text-[#DCDBDB]"
             >
-              About
+              About Us
             </Link>
             <Link
               onMouseEnter={() => setIsOpen(true)}
@@ -121,7 +121,7 @@ const NavbarComponent = () => {
                 to="/about"
                 className="text-[#fff] hover:text-[#DCDBDB] transition ease-in-out cursor-pointer focus:text-[#DCDBDB]"
               >
-                About
+                About Us
               </Link>
               <Link
                 onClick={closeSelect}
