@@ -2,24 +2,42 @@ import React from "react";
 import { BiSolidCustomize } from "react-icons/bi";
 import { BsFillLightningChargeFill } from "react-icons/bs";
 import { FaPencilRuler } from "react-icons/fa";
-import exper from "../images/exper.jpg";
-import crfts from "../images/crfts.jpg";
-import comm from "../images/comm.jpg";
+import Expertise from "../images/Rangi-Renovations-Home-Why-Choose-Us-Expertise.jpg";
+import Craftsmanship from "../images/Rangi-Renovations-Home-Why-Choose-Us-Quality-Craftsmanship.jpg";
+import Transparent from "../images/Rangi-Renovations-Home-Why-Choose-Us-Transparent-Communication.jpg";
 
 const WhychooseUsComponent = () => {
   const options = [
     {
-      icon: <img src={exper} alt="" className=" rounded-t-xl object object-cover h-full w-full " />,
+      icon: (
+        <img
+          src={Expertise}
+          alt="Experties"
+          className=" rounded-t-xl object object-cover h-full w-full "
+        />
+      ),
       title: "Expertise",
       desc: "With years of experience in the industry, our team brings a wealth of expertise and knowledge to every project we undertake.",
     },
     {
-      icon: <img src={crfts} alt="" className=" rounded-t-xl object-cover h-full w-full " />,
+      icon: (
+        <img
+          src={Craftsmanship}
+          alt=""
+          className=" rounded-t-xl object-cover h-full w-full "
+        />
+      ),
       title: "Quality Craftsmanship",
       desc: " We take pride in our attention to detail and commitment to quality craftsmanship, ensuring that every aspect of your renovation is completed to the highest standards.",
     },
     {
-      icon: <img src={comm} alt="" className=" rounded-t-xl object-cover h-full w-full " />,
+      icon: (
+        <img
+          src={Transparent}
+          alt="Transparent"
+          className=" rounded-t-xl object-cover h-full w-full "
+        />
+      ),
       title: "Transparent Communication",
       desc: "We'll keep you informed and involved throughout the entire renovation process, ensuring that your vision is brought to life exactly as you imagined.",
     },

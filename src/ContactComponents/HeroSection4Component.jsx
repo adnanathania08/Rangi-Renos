@@ -1,6 +1,6 @@
 import React from "react";
 // import contact2 from "../images/contact2.jpg";
-import contact3 from "../images/contact3.jpg";
+import contact3 from "../images/Rangi-Renovations-Contact-us-hero.jpg";
 
 const HeroSection4 = () => {
   return (
