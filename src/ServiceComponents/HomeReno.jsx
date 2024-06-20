@@ -1,40 +1,76 @@
 import React from "react";
-import plumbing from "../images/bathroomRenovs.jpg";
-import flooring from "../images/basementReno.jpg";
-import partitions from "../images/kitchenhom.jpg";
-import dropceiling from "../images/homefloor.jpg";
-import carpentry from "../images/housecolor.jpg";
-import hardwoodstairs from "../images/plumbingg.jpg";
+import Bathroom from "../images/Rangi-Renovations-Services-Home-services-Home-Renovations-Bathroom-Renovations.jpg";
+import Basement from "../images/Rangi-Renovations-Services-Home-services-Home-Renovations-Legal-Basement.jpg";
+import Kitchen from "../images/Rangi-Renovations-Services-Home-services-Home-Renovations-Kitchen-Renovations.jpg";
+import Flooring from "../images/Rangi-Renovations-Services-Home-services-Home-Renovations-Flooring.jpg";
+import Painting from "../images/Rangi-Renovations-Services-Home-services-Home-Renovations-Painting.jpg";
+import Plumbing from "../images/Rangi-Renovations-Services-Home-services-Home-Renovations-Plumbing.jpg";
 import { Link } from "react-router-dom";
 const HomeReno = () => {
   const features = [
     {
-      icon: <img src={plumbing} alt="" className=" rounded-t-xl object-cover h-full w-full " />,
+      icon: (
+        <img
+          src={Bathroom}
+          alt="Bathroom-Renovations"
+          className=" rounded-t-xl object-cover h-full w-full "
+        />
+      ),
       title: "Bathroom Renovations",
       desc: "Expert plumbing solutions tailored to your needs, ensuring optimal functionality and efficiency for your home.",
     },
     {
-      icon: <img src={flooring} alt="" className=" rounded-t-xl object-cover h-full w-full " />,
+      icon: (
+        <img
+          src={Basement}
+          alt="Legal-Basement"
+          className=" rounded-t-xl object-cover h-full w-full "
+        />
+      ),
       title: " Legal Basement",
       desc: "Premium flooring options to suit your style and practical needs, elevating the ambiance of every room.",
     },
     {
-      icon: <img src={partitions} alt="" className=" rounded-t-xl object-cover h-full w-full " />,
+      icon: (
+        <img
+          src={Kitchen}
+          alt="Kitchen-renovation"
+          className=" rounded-t-xl object-cover h-full w-full "
+        />
+      ),
       title: "Kitchen Renovations",
       desc: "Customized partition designs creating versatile spaces, blending functionality with seamless integration into your home's layout.",
     },
     {
-      icon: <img src={dropceiling} alt="" className=" rounded-t-xl object-cover h-full w-full " />,
+      icon: (
+        <img
+          src={Flooring}
+          alt="Flooring"
+          className=" rounded-t-xl object-cover h-full w-full "
+        />
+      ),
       title: "Flooring",
       desc: "Innovative drop ceiling installations providing versatility and aesthetics, optimizing lighting and acoustics for your space.",
     },
     {
-      icon: <img src={carpentry} alt="" className=" rounded-t-xl object-cover h-full w-full " />,
+      icon: (
+        <img
+          src={Painting}
+          alt="Painting"
+          className=" rounded-t-xl object-cover h-full w-full "
+        />
+      ),
       title: "Painting",
       desc: "Exquisite craftsmanship in every detail, transforming your space with bespoke carpentry solutions and finishes.",
     },
     {
-      icon: <img src={hardwoodstairs} alt="" className=" rounded-t-xl object-cover h-full w-full " />,
+      icon: (
+        <img
+          src={Plumbing}
+          alt="Plumbing"
+          className=" rounded-t-xl object-cover h-full w-full "
+        />
+      ),
       title: "Plumbing",
       desc: "Elegant and durable hardwood stair installations, enhancing the aesthetic appeal and functionality of your home.",
     },

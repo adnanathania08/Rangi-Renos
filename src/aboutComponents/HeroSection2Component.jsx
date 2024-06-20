@@ -1,6 +1,7 @@
 import React from "react";
 // import hero2 from "../images/hero2.jpg";
-import hero2 from "../images/aboutusimg.jpg";
+// import hero2 from "../images/aboutusimg.jpg";
+import hero2 from "../images/Rangi-Renovations-About-Hero.jpg";
 const HeroSection2Component = () => {
   return (
     <>
