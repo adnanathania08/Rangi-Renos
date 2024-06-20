@@ -1,7 +1,7 @@
 import React from "react";
-import luxkitc from "../images/luxkitc.jpg";
-import bathroom from "../images/bathroom.jpg";
-import basement from "../images/basement.jpg";
+import Kitchen from "../images/Rangi-Renovations-Home-Renovation-Project-kitchen.jpg";
+import Bathroom from "../images/Rangi-Renovations-Home-Renovation-Project-bathroom.jpg";
+import Basement from "../images/Rangi-Renovations-Home-Renovation-Project-basement.jpg";
 import { Link } from "react-router-dom";
 const RenovationProjectComponent = () => {
   const plans = [
@@ -9,9 +9,9 @@ const RenovationProjectComponent = () => {
       name: "Modern kitchen Makeovers Projects",
       img: (
         <img
-          src={luxkitc}
+          src={Kitchen}
           className="rounded-t-lg w-full h-full object-cover"
-          alt=""
+          alt="Kitchen"
         />
       ),
       features: [
@@ -22,9 +22,9 @@ const RenovationProjectComponent = () => {
       name: "Luxurious Bathroom Renovation",
       img: (
         <img
-          src={bathroom}
+          src={Bathroom}
           className="rounded-t-lg w-full h-full object-cover"
-          alt=""
+          alt="bathroom"
         />
       ),
       features: [
@@ -35,9 +35,9 @@ const RenovationProjectComponent = () => {
       name: "Basement Transformation Projects",
       img: (
         <img
-          src={basement}
+          src={Basement}
           className="rounded-t-lg w-full h-full object-cover"
-          alt=""
+          alt="basement"
         />
       ),
       features: [

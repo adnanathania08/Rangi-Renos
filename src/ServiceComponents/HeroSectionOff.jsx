@@ -1,15 +1,15 @@
 import React from "react";
-// import service2 from "../images/service2.jpg";
-import service2 from "../images/services2.jpg";
-import officeheroimg from "../images/oficheroimg.jpg";
+
+import Hero from "../images/Rangi-Renovations-Services-Office-services-Hero.jpg";
 
 const HeroSectionOff = () => {
   return (
     <>
       <div className="mainContainer w-[100%] h-screen bg-slate-400 relative  overflow-hidden flex justify-center items-center">
         <img
-          src={officeheroimg}
+          src={Hero}
           className="h-screen w-full object-cover z-0 brightness-[60%] absolute"
+          alt="Hero"
         />
         <div
           className="herocontent w-[80%] pt-24 pb-24 px-20 air:px-12 m480:px-8 absolute z-10 air:w-[100%] flex flex-col gap-7 m480:gap-6 text-center"

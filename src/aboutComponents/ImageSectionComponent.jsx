@@ -1,24 +1,26 @@
 import React from "react";
-import about2 from "../images/about2.jpg";
-import about3 from "../images/about3.jpg";
+import About1 from "../images/Rangi-Renovations-About-about1.jpg";
+import About2 from "../images/Rangi-Renovations-About-about2.jpg";
 const ImageSectionComponent = () => {
   return (
     <>
       <div className="mainContainer bg-[#28334a] py-16 px-20 w-[100%] air:px-12 m480:px-8 overflow-hidden">
         <div className="imageContainer flex w-[100%]">
           <img
-            src={about2}
+            src={About1}
             className="w-[50%]"
             data-aos="fade-right"
             data-aos-duration="1000"
             data-aos-once="true"
+            alt="about1"
           />
           <img
-            src={about3}
+            src={About2}
             className="w-[50%] p-[5vw]"
             data-aos="fade-left"
             data-aos-duration="1200"
             data-aos-once="true"
+            alt="about2"
           />
         </div>
       </div>

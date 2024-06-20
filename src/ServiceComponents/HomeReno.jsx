@@ -1,18 +1,19 @@
 import React from "react";
-import plumbing from "../images/bathroomRenovs.jpg";
-import flooring from "../images/basementReno.jpg";
-import partitions from "../images/kitchenhom.jpg";
-import dropceiling from "../images/homefloor.jpg";
-import carpentry from "../images/housecolor.jpg";
-import hardwoodstairs from "../images/plumbingg.jpg";
+import Bathroom from "../images/Rangi-Renovations-Services-Home-services-Home-Renovations-Bathroom-Renovations.jpg";
+import Basement from "../images/Rangi-Renovations-Services-Home-services-Home-Renovations-Legal-Basement.jpg";
+import Kitchen from "../images/Rangi-Renovations-Services-Home-services-Home-Renovations-Kitchen-Renovations.jpg";
+import Flooring from "../images/Rangi-Renovations-Services-Home-services-Home-Renovations-Flooring.jpg";
+import Painting from "../images/Rangi-Renovations-Services-Home-services-Home-Renovations-Painting.jpg";
+import Plumbing from "../images/Rangi-Renovations-Services-Home-services-Home-Renovations-Plumbing.jpg";
 import { Link } from "react-router-dom";
 const HomeReno = () => {
   const features = [
     {
       icon: (
         <img
-          src={plumbing}
-          alt=""
+          src={Bathroom}
+          alt="Bathroom-Renovations"
+
           className=" rounded-t-xl object-cover h-full w-full "
         />
       ),
@@ -22,8 +23,8 @@ const HomeReno = () => {
     {
       icon: (
         <img
-          src={flooring}
-          alt=""
+          src={Basement}
+          alt="Legal-Basement"
           className=" rounded-t-xl object-cover h-full w-full "
         />
       ),
@@ -33,8 +34,9 @@ const HomeReno = () => {
     {
       icon: (
         <img
-          src={partitions}
-          alt=""
+          src={Kitchen}
+          alt="Kitchen-renovation"
+
           className=" rounded-t-xl object-cover h-full w-full "
         />
       ),
@@ -44,8 +46,10 @@ const HomeReno = () => {
     {
       icon: (
         <img
-          src={dropceiling}
-          alt=""
+
+          src={Flooring}
+          alt="Flooring"
+
           className=" rounded-t-xl object-cover h-full w-full "
         />
       ),
@@ -55,8 +59,10 @@ const HomeReno = () => {
     {
       icon: (
         <img
-          src={carpentry}
-          alt=""
+
+          src={Painting}
+          alt="Painting"
+
           className=" rounded-t-xl object-cover h-full w-full "
         />
       ),
@@ -66,8 +72,10 @@ const HomeReno = () => {
     {
       icon: (
         <img
-          src={hardwoodstairs}
-          alt=""
+
+          src={Plumbing}
+          alt="Plumbing"
+
           className=" rounded-t-xl object-cover h-full w-full "
         />
       ),
